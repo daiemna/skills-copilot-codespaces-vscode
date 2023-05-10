@@ -24,5 +24,6 @@ app.post('/comments', (req, res) => {
   const comment = {
     id: uuid(),
     timestamp: Date.now(),
-    body: req.body.body,
+    body: req.body.body
   };
+  });
